@@ -1,11 +1,8 @@
-html,* {
+html {
   margin: 0;
   padding: 0;
-}
-
-body{
-  height:100%;
-  width:90%;
+  height: 100%;
+  width: 100%;
 }
 
 .main_container {
@@ -22,7 +19,7 @@ body{
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
-  width: 70%;
+  width: 80%;
 }
 
 .top_container .profile img {
@@ -35,7 +32,7 @@ body{
 .top_container .name {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
+  font-size: 60px;
   margin-top: 30px;
 }
 
@@ -44,6 +41,11 @@ body{
   flex-direction: column;
   text-align: right;
 }
+
+.top_container .contacts ul{
+  margin: 0 !important;
+}
+
 
 .top_container .contacts ul li {
   list-style: none;
@@ -55,6 +57,7 @@ body{
   text-decoration: none;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  /* width: 400px; */
 }
 
 .top_container .contacts ul li a i {
@@ -63,7 +66,7 @@ body{
 
 .middle_container {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   width: 70%;
   margin: 20px 0;
   text-align: justify;
@@ -173,6 +176,7 @@ body{
   flex-direction: row;
   justify-content: space-evenly;
   width: 40%;
+  text-align: left;
 }
 
 .bottom_container .right .languages .hindi h3 {
@@ -180,6 +184,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   margin:0;
   margin-right: 30px;
+  text-align: left;
 }
 
 .bottom_container .right .languages .hindi .dot {
@@ -200,7 +205,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
     padding: 20px;
 }
 
@@ -209,7 +214,7 @@ body{
     color: black;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 250px;
+    width: 230px;
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
